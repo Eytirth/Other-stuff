@@ -1,0 +1,502 @@
+[Skin by lakelimbo on Discord] 
+
+
+body {
+  background: url(https://www.goodfreephotos.com/albums/other-landscapes/mountainside-landscape-in-the-fog.jpg)
+}
+
+
+/* All CSS here will be loaded for users of the Cosmos skin */
+
+#toc {
+    background: rgba(31,37,39, .8) !important;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rgba(77, 77, 77, .6);
+}
+
+.cosmos-header {
+    background: rgba(31,37,39, .8) !important;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rgba(77, 77, 77, .6);
+}
+.cosmos-header:before {
+    background: none;
+}
+
+#p-tb {
+  display:none;
+}
+
+#cosmos-toolbar {
+  display:none;
+}
+
+
+#mw-content {
+  background: rgba(20, 20, 20, .8);
+  border-radius: 25px;
+  border: 2px solid rgba(77, 77, 77, .6);
+}
+
+body #mw-content-text {
+color: #fff; 
+
+}
+
+.mw-body h1.firstHeading,  body h1, body h2, body h3, body h4, body h5, body h6, .cosmos-header__sitename a:any-link, .cosmos-header .wds-tabs .wds-tabs__tab-label a, .cosmos-header .cosmos-header__counter, .cosmos-button.cosmos-button-secondary, #cosmos-footer ul, #cosmos-footer a {
+  color: #fff;
+}
+
+background: rgba(31,37,39, .8) !important;
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rbga(77, 77, 77, .6);
+}
+
+.cosmos-footer {
+
+    background: rgba(31,37,39,.8);
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rbga(77, 77, 77, .6);
+}
+#cosmos-footer {
+    background: rgba(31,37,39,.8);
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rbga(77, 77, 77, .6);
+}
+
+#catlinks {
+    background: rgba(31,37,39,.6);
+    color: #fff;
+    border-radius: 25px;
+    border: 2px solid rbga(77, 77, 77, .6);
+}
+
+#cosmos-toolbar {
+	position: sticky;
+	z-index: 1000;
+	bottom: 0;
+	left: 50;
+	z-index: 399;
+	right: 0px;
+	bottom: 9px;
+	display: flex;
+	width: 100%;
+	width: fit-content;
+	max-width: 50%;
+	height: auto;
+	min-height: 25px;
+	align-items: center;
+	padding: 0;
+	padding: 5px;
+	margin: 0;
+	background-image: -moz-linear-gradient( left, @toolbar-background-color1 0, @toolbar-background-color2 50%, @toolbar-background-color1 100% );
+	background-image: -webkit-gradient( linear, 0% 0%, 100% 0%, color-stop( 0, @toolbar-background-color1 ), color-stop( 50%, @toolbar-background-color2 ), color-stop( 100%, @toolbar-background-color1 ) );
+	background-image: -o-linear-gradient( left, @toolbar-background-color1 0, @toolbar-background-color2 50%, @toolbar-background-color1 100% );
+	background-image: -ms-linear-gradient( left, @toolbar-background-color1 0, @toolbar-background-color2 50%, @toolbar-background-color1 100% );
+	border-radius: 20px;
+	box-shadow: 0 0 10px 0 @content-background-color;
+	float: right;
+}
+
+.mw-special-ManageWiki #cosmos-toolbar,
+.mw-special-Preferences #cosmos-toolbar {
+	display: none;
+}
+
+#mw-data-after-content .mw-cookiewarning-container {
+	display: none;
+}
+
+.cosmos-toolbar-tools {
+	padding: 0;
+	margin: 0 auto;
+	font-size: 10pt;
+	text-align: center;
+	display: -webkit-box;
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	-webkit-box-align: center;
+	font-size: 12px;
+}
+
+#cosmos-pageBody-content {
+	padding: 0 0 15px 0;
+}
+
+body:not( .mw-special-ManageWiki ):not( .mw-special-Preferences ) #cosmos-pageBody-content {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+/* Collapsible elements. Toggle-link moved to left. */
+/* Margin around it adjusted. */
+
+.mw-collapsible span.mw-collapsible-toggle {
+    margin-left:0;
+    margin-right:1em;
+}
+
+/* {{pp|small=yes}} */
+#mp-topbanner {
+	position: relative;
+	box-sizing: border-box;
+	min-width: 47em; 
+	border-color: rgba(77, 77, 77, .4);
+	background-color: rgba(31,37,39, .6);
+	white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.mp-bordered,
+.mp-h2,
+body.skin-timeless .mp-h2 { /* Timeless needs a higher specificity */
+	border-radius: 25px;
+    border-width: 2px;
+	border-style: solid;
+    color: #FFFFFF;
+}
+
+#mp-topbanner,
+.mp-h2,
+#mp-left {
+	color: #FFFFFF;
+}
+
+#mp-welcomecount {
+	margin: 0.4em;
+	width: 22em;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+#mp-welcome {
+	font-size: 162%;
+	padding: 0.1em;
+    color: #FFFFFF;
+}
+
+#mp-free {
+	font-size: 95%;
+    color: #FFFFFF;
+}
+
+#articlecount {
+	font-size: 85%;
+    color: #FFFFFF;
+}
+
+#mp-portals {
+	position: absolute;
+	right: -1em;
+	top: 50%;
+	margin-top: -2.4em;
+	width: 38%;
+	min-width: 25em;
+	font-size: 95%;
+    color: #FFFFFF;
+}
+
+#mp-portals li {
+	position: absolute;
+	left: 0;
+	top: 0;
+    color: #FFFFFF;
+}
+
+#mp-portals .portal-hmid {
+	left: 33%;
+    color: #FFFFFF;
+}
+
+#mp-portals .portal-hright {
+	left: 66%;
+    color: #FFFFFF;
+}
+
+#mp-portals .portal-vmid {
+	top: 1.4em;
+    color: #FFFFFF;
+}
+
+#mp-portals .portal-vbot {
+	top: 3.2em;
+    color: #FFFFFF;
+}
+
+#mp-portals li:last-child {
+	font-weight: bold;
+    color: #FFFFFF;
+}
+
+#mp-banner {
+	margin-top: 4px;
+	padding: 0.5em;
+	background-color: #fffaf5;
+	border-color: #f2e0ce;
+    color: #FFFFFF;
+}
+
+.mp-h2,
+body.skin-timeless .mp-h2 { /* Timeless needs a higher specificity */
+	margin: 0.5em;
+	padding: 0.2em 0.4em;
+	font-size: 120%;
+	font-weight: bold;
+	font-family: inherit;
+    color: #FFFFFF;
+}
+
+h2.mp-h2::after { /* Remove borders in Timeless */
+	border: none;
+    color: #FFFFFF;
+}
+
+.mp-later {
+	font-size: 85%;
+	font-weight: normal;
+    color: #FFFFFF;
+}
+
+#mp-upper {
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 0;
+	border-spacing: 1em;
+	border-collapse: separate;
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+
+#mp-upper .mid-table {
+	border-color: transparent;
+    color: #FFFFFF;Taerel-
+}
+  
+
+#mp-left {
+	width: 70%;
+	border-color: rgba(77, 77, 77, .4);
+	background: rgba(31,37,39, .6);
+    color: #FFFFFF;
+    margin-right: 2 em; 
+    margin-bottom: 2 em; 
+    margin-left: 2 em; 
+}
+
+#mp-right {
+	 width: 35%;
+	 border-color: rgba(77, 77, 77, .4);
+	 background: rgba(31,37,39, .6);
+     color: #FFFFFF;
+     margin-right: 2 em; 
+     margin-bottom: 2 em; 
+     margin-left: 2 em; 
+}
+
+#mp-left,
+#mp-right {
+	 padding: 0;
+	 vertical-align: top;
+     color: #FFFFFF;
+}
+
+#mp-left .mp-h2 {
+	background: rgba(42,51,54, 0.6);
+	border-color: rgba(77, 77, 77, .4);
+    border-radius: 25px;
+    color: #FFFFFF;
+}
+
+#mp-right .mp-h2 {
+	background: rgba(42,51,54, 0.6);
+	border-color: rgba(77, 77, 77, .4);
+    border-radius: 25px;
+}
+
+#mp-tfa,
+#mp-dyk,
+#mp-itn,
+#mp-otd,
+#mp-other-lower > div {
+	padding: 0.7em;
+}
+
+#mp-dyk-h2,
+#mp-otd-h2 {
+	clear: both;
+}
+
+#mp-middle {
+	margin-top: 4px;
+	border-color: #f2cedd;
+	background: #fff5fa;
+}
+
+#mp-middle,
+#mp-lower,
+#mp-other-lower {
+	overflow: auto;
+}
+
+#mp-tfl-h2 {
+	background: rgba(42,51,54, 0.6);
+	border-color: #bfa3af;
+}
+
+#mp-tfl {
+	padding: 0.3em 0.7em;
+}
+
+#mp-lower {
+	margin-top: 4px;
+	border-color: rgba(77, 77, 77, .4);
+	background: rgba(31,37,39, .6);
+}
+
+#mp-tfp-h2 {
+	background: rgba(42,51,54, 0.6);
+	border-color: rgba(77, 77, 77, .4);
+}
+
+#mp-tfp {
+	 margin: 0.1em 0.4em 0.4em;
+}
+
+#mp-other-lower {
+	padding: 0;
+	border-color: #e2e2e2;
+	margin-top: 4px;
+}
+
+#mp-dyk,
+#mp-otd,
+#mp-other-lower {
+	padding-bottom: 0.5em;
+}
+
+#mp-other-lower .mp-h2 {
+	background: rgba(42,51,54, 0.6);
+	border-color: rgba(77, 77, 77, .4);
+	color: #222;
+}
+
+@media (max-width: 875px) {
+	
+	body.skin--responsive #mp-welcomecount {
+		width: auto;
+	}
+
+	body.skin--responsive #mp-topbanner {
+		min-width: 0;
+		white-space: normal;
+	}
+	
+	body.skin--responsive #mp-portals {
+		position: static;
+		width: auto;
+		min-width: 0;
+		text-align: center;
+		border-top: 1px solid #ddd;
+		padding: 0.4em 0;
+		margin: 0 0.4em;
+	}
+	
+	body.skin--responsive #mp-portals li {
+		position: static;
+		display: inline;
+		padding: 0 5px;
+		white-space: nowrap;
+	}
+	
+	body.skin--responsive table,
+	body.skin--responsive tr,
+	body.skin--responsive td,
+	body.skin--responsive tbody {
+		display: block !important;
+		width: 100% !important;
+		box-sizing: border-box;
+	}
+
+	body.skin--responsive #mp-tfp tr:first-child td:first-child a {
+		text-align: center;
+		display: table;
+		margin: 0 auto;
+	}
+
+}
+.search-types .current a {
+    color: rgba(42,51,54,0.6);
+    border-radius: 25px;
+}
+.oo-ui-buttonElement-framed.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    background-color: rgba(42,51,54,0.6);
+    color: #FFFFF;
+    border-color: rgba(77,77,77,.4);
+    border-radius: 25px;
+
+body * {
+    font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+<style>
+.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+    background-color: rgba(42,51,54,0.6);
+    border: 1px solid rgba(77,77,77,.4);
+    border-bottom: 0;
+    border-color: rgba(77,77,77,.4);
+    border-radius: 25px;
+    padding: 0 0.6em 0.6em 0.6em;
+    line-height: normal;
+}
+<style>
+.oo-ui-tagMultiselectWidget-handle {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 2.28571429em;
+    margin-right: 8px;
+    background-color: rgba(42,51,54,0.6);
+    border: 1px solid rgba(77,77,77,.4);
+    border-radius: 25px;
+    padding: 0 8px;
+    line-height: 1;
+}
+<style>
+.mw-rcfilters-ui-filterWrapperWidget {
+    width: 100%;
+    direction: ltr;
+}
+body #mw-content-text {
+    color: #fff;
+}
+body #mw-content-text {
+    color: #fff;
+    line-height: 1.5;
+}
+#mw-content-text {
+    overflow-wrap: break-word;
+}
+body #mw-content {
+    color: #fff;
+}
+#mw-content {
+    position: relative;
+    z-index: 1;
+    min-height: 250px;
+    padding: 10px 40px;
+    border: 0;
+    word-wrap: break-word;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
