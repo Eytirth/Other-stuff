@@ -1,1 +1,1 @@
-Minecraft data packs I made 
+MediaWikiXML2Text.py and MediaWikiHeadingRemove.py allow you to convert a XML Dump from MediaWiki's Export ablities into a plain text file.  This needs you to have a file called "Taerel14April2023.xml" in the folder you have the script run. You then run "python3 MediaWikiXML2Text.py" and you should get a .txt called "taerelwikitextstage1.txt". You then need to run "python3 MediaWikiHeadingRemove.py" and you sshould get a file called taerelwikitextstage2.txt. That is  your deMediaWikified plain text from tthe XML dump.  
