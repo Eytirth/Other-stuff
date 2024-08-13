@@ -1,0 +1,78 @@
+/*Code was made by Tali64#9984 on the Miraheze Discord*/ 
+
+@media all and (min-width: 1000px) {
+	.mw-checkbox-hack-button {
+    	display: none;
+	}
+	.mw-logo {
+		margin-left: 58px;
+	}
+}
+#mw-sidebar-checkbox:not(:checked) ~ .vector-sidebar-container-no-toc ~ .mw-content-container {
+	max-width: none;
+    float: left 
+}
+.cdx-search-input--has-end-button {
+    padding-top: 0.3px;
+}
+.client-js .vector-search-box-vue .cdx-typeahead-search .cdx-text-input__input:not(:hover):not(:focus) {
+    border-right: 0;
+}
+.mw-article-toolbar-container {
+	border: none;
+}
+.mw-body-header {
+    margin-top: -20px;
+}
+.mw-content-container {
+	background: #ffffff;
+    border: 1px solid #a7d7f9;
+	margin-top: 27px;
+	max-width: none;
+	padding: 20px;
+}
+.mw-footer {
+	border: none;
+}
+.mw-footer-container {
+	padding: 0;
+}
+.mw-header {
+	background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%);
+}
+.mw-page-container {
+	background: #f6f6f6;
+	max-width: none;
+	padding: 0;
+}
+.mw-page-container-inner {
+	grid-template-columns: 215px 20px minmax(0, 1fr);
+}
+.mw-sidebar {
+	background: none;
+	margin: 0;
+}
+.vector-article-toolbar {
+	margin-top: -87px;
+}
+.vector-body {
+	margin-top: 50px;
+}
+.vector-sticky-header {
+	display: none;
+}
+
+/* Use this code if you want a Vector 2010-like lack of table of contents */
+
+/.mw-table-of-contents-container {
+/  display: none;
+/  visibility: hidden;
+/}
+
+/* Use this code if you want the table of contents but blending into to the skin*/
+
+/.sidebar-toc {
+/background: #f6f6f6;
+/border-right: 1px solid #a7d7f9;;
+/width: 14.75em;
+/}
